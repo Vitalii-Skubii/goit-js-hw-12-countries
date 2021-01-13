@@ -1,0 +1,13 @@
+<h1>{{name}}</h1>
+<div class="flex">
+    <ul>
+        <li><b>Capital:</b>{{capital}}</li>
+        <li><b>Population:</b>{{population}}</li>
+        <li><b>Languages:</b>
+            <ul>{{#each languages}}<li>{{name}}</li>
+                {{/each}}</ul>
+        </li>
+    </ul>
+    <img src="{{flag}}" alt="flag" width="250" height="150">
+
+</div>
